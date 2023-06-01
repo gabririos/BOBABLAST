@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> apples... again </title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+            background-color: lightcyan;
+            font-family: 'Raleway', Arial, sans-serif;
+        }
+
+        h1 {
+            font-variant: small-caps;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: 20pt;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+		    width: 100%;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <h1> Explaining How I Used Display: Grid </h1>
+    <p style="text-align: center;"> Hello Mr. Fernandez! If you are currently viewing this, it is probably because you asked me how I 
+        used display: grid. I made this little mini skillset to explain just what I used, since the display grid has lots and lots of
+        characteristics. </p>
+
+    <section class="grid">
+        <div class="red">
+            <img src="images/redapple.png" alt="red apple" width="480px" height="400px">
+            <p><b>Red apple</b></p>
+        </div>
+
+        <div class="gala">
+            <img src="images/galaapple.png" alt="gala apple" width="400px" height="400px">
+            <p><b>Gala apple</b></p>
+        </div>
+
+        <div class="green">
+            <img src="images/greenapple.png" alt="green apple" width="400px" height="400px">
+            <p><b>Green apple</b></p>
+        </div>
+    </section>
+
+    <p> In this example, I pretty much recreated my own sushi PWYS but in an easier way that can stack since it doesn't use display flex.</p>
+
+    <p>Each photo and text is in a div, making 3 divs. The 3 divs are inside of a section, with a class called grid. In my style section
+        for the grid class, these are the characteristics I added. <br> </p>
+
+        <p>
+            display: grid;<br>
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));<br>
+            gap: 10px;<br>
+		    width: 100%;<br>
+            text-align: center;<br>
+        </p>
+
+    <p> First, display: grid; provides you with a singular column, which you can then define.</p>
+        
+        <p>
+        grid-template-columns allows you to create a
+        template of each column, essentially defining the size of each column. I used repeat which makes it so that the pattern repeats for 
+        each div continuously. I used auto-fit, which will expand the grid items to fill the available space, not to be confused with auto-fill, 
+        which will keep the available space reserved without altering the grid items width.</p>
+
+        <p>
+        I used minmax which basically makes the page responsive to when you resize the page or open it on a phone. The minmax I used sets the minimum to
+        100px, and the maximum to 1fr. fr stands for fraction, which sets the maximum size of the column to a fraction of the available space in the 
+        grid container, using 1 to make it take up the entirety of its container.</p>
+
+        <p>
+        Using minmax and auto-fit (or auto-fill if you choose to) are both useful because it makes the display responsive, meaning that it will
+        automatically wrap itself under or stack itself when the page gets smaller.</p>
+        <br>
+
+
+            <center><p><b>Little example of auto-fill and auto-fit because why not?!?</b></p>
+            <img src="images/exampleAF.png" alt="example of auto-fill and auto-fit" width="50%">
+
+        <p>To learn all of these cool display grid tricks, I watched the following youtube videos and websites.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_lEkD8IGkwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qII5BueXWD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PuhObGdKSDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/asfqwwrXis4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <br><br>
+        <a href>https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids</a>
+        <br><br>
+    </center>
+
+</body>
+
+</html>
+

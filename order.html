@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title> BOBA BLAST </title>
+	<meta charset="utf-8">
+	<meta name="description" content="Boba Blast Food Truck">
+	<meta name="keywords" content="boba, boba blast, bubble tea, milk tea, food truck, boba food truck, milk tea truck">
+	<meta name="author" content="Gabriela Rios">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="300">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	
+	<style>
+	
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: 'Poppins', sans-serif;
+		}
+
+	#fieldset {
+		width: 20%; 
+		border: 2px solid #00000050; 
+		border-radius: 8px;
+		padding-left: 10px;
+		padding-right: 10px; 
+		padding-bottom: 10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	legend {
+		font-size: 20pt;
+	}
+
+	p {
+		font-size: 24pt;
+		font-weight: 600;
+        text-decoration: underline;
+		text-align: center;
+	}
+
+	.ul1 {
+		display: inline-block;
+		list-style-type: none;
+		margin-right: 10px;
+		text-align: left;
+	}
+
+	.ul2 {
+		display: inline-block;
+		list-style-type: none;
+		text-align: left;
+	}
+
+	.drinks {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+
+	#submit {
+		border: 8px solid #392110;
+		border-radius: 2px;
+		padding-left: 2px;
+		padding-right: 2px;
+		color: white;
+		background-color: #392110;
+		transition: all ease 0.8s;
+	}
+	
+	
+	</style>
+
+</head>
+
+<body>
+<!-- COLOR SCHEME:
+blue: #c0e2f7;
+light blue: #d7edfa;
+dark blue: #418AE1;
+beige: #c3a17e;
+light brown: ;
+dark brown: #392110;
+pink: #ff67c2;
+-->
+<div class="top">
+<header>
+	<a href="index.html"><img src="images/bobablastlogo.png" alt="boba blast logo" height="120px" style="z-index: 5; position: relative;"></a>
+</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html" target="_blank"> HOME </a></li> 
+			<li><a href="menu.html" target="_blank"> MENU </a></li>
+			<li><a href="order.html"> ORDER </a></li> 
+			<li><a href="catering.html" target="_blank"> CATERING </a></li> 
+			<li><a href="contact.html" target="_blank"> CONTACT US </a></li>
+   		 </ul>
+	</nav>
+</div>
+
+<main>
+	<img src="images/order.png" alt="order banner" width="100%">
+
+	<p>Customizing Order</p>
+
+	<br>
+
+<div style="background-color: #d7edfa;">
+<br>
+	<section class="drinks">
+	<form id="fieldset" style="width: 50%" action="https://formsubmit.co/gabririos513@gmail.com" method="POST" required="required">
+		<legend>Drinks</legend>
+
+		<ul class="ul1">
+		<li><input type="radio" value="mango-matcha-latte" name="drink">Mango Matcha Latte<br></li>
+
+		<li><input type="radio" value="mango-jasmine-fresca" name="drink">Mango Jasmine Fresca<br></li>
+	
+		<li><input type="radio" value="matcha-yuzu-palmer" name="drink">Matcha Yuzu Palmer<br></li>
+		
+		<li><input type="radio" value="passionfruit-fresca" name="drink">Passionfruit Fresca<br></li>
+		
+		<li><input type="radio" value="pastel-paradise-cloud" name="drink">Pastel Paradise Cloud<br></li>
+		
+		<li><input type="radio" value="sawadee-cloud" name="drink">Sawadee Cloud<br></li>
+		
+		<li><input type="radio" value="midori-cloud" name="drink">Midori Cloud<br></li>
+		
+		<li><input type="radio" value="classic-black" name="drink">Classic Black<br></li>
+		
+		<li><input type="radio" value="jasmine-green" name="drink">Jasmine Green<br></li>
+		
+		<li><input type="radio" value="decaf-black" name="drink">Decaf Black<br></li>
+		
+		<li><input type="radio" value="rose-black" name="drink">Rose Black<br></li>
+		
+		<li><input type="radio" value="hibiscus-mint-iced-tea" name="drink">Hibiscus Mint Tea<br></li>
+		
+		<li><input type="radio" value="strawberry-matcha-latte" name="drink">Strawberry Matcha Latte<br></li>
+		
+		<li><input type="radio" value="matcha-latte" name="drink">Matcha Latte<br></li>
+		
+		<li><input type="radio" value="black-sugar-hojicha" name="drink">Black Sugar Hojicha<br></li>
+		</ul>
+
+		<ul class="ul2">
+		<li><input type="radio" value="korean-banana-milk" name="drink">Korean Banana Milk<br></li>
+		
+		<li><input type="radio" value="horchata" name="drink">Horchata<br></li>
+		
+		<li><input type="radio" value="thai-tea" name="drink">Thai Tea<br></li>
+		
+		<li><input type="radio" value="strawberry-fields" name="drink">Strawberry Fields<br></li>
+		
+		<li><input type="radio" value="ube-latte" name="drink">Ube Latte<br></li>
+		
+		<li><input type="radio" value="hong-kong-milk-tea" name="drink">Hong Kong Milk Tea<br></li>
+		
+		<li><input type="radio" value="strawberry-jasmine" name="drink">Strawberry Jasmine<br></li>
+		
+		<li><input type="radio" value="berry-hibiscus" name="drink">Berry Hibiscus<br></li>
+		
+		<li><input type="radio" value="lychee-oolong" name="drink">Lychee Oolong<br></li>
+		
+		<li><input type="radio" value="dirty-horchata" name="drink">Dirty Horchata<br></li>
+
+		<li><input type="radio" value="dirty-banana-milk" name="drink">Dirty Banana Milk<br></li>
+
+		<li><input type="radio" value="shaken-cold-brew" name="drink">Shaken Cold Brew<br></li>
+
+		<li><input type="radio" value="espresso-milk-tea" name="drink">Espresso Milk Tea<br></li>
+
+		<li><input type="radio" value="coffee-milk-tea" name="drink">Coffee Milk Tea<br></li>
+
+		<li><input type="radio" value="cafe-latte" name="drink">Cafe Latte</li>
+		</ul>
+		
+	
+	</section>
+<br>
+	<section class="CustomizeDrinks">
+			<fieldset id="fieldset">
+				<legend>Size</legend>
+				<select size="1">
+					<option> Select your Size</option>
+						<option value="Spaceship Blast 12 fl oz" name="size"> Spaceship Blast 12 fl oz </option><br>
+						<option value="Rocket Blast 16 fl oz" name="size"> Rocket Blast 16 fl oz </option><br>
+						<option value="Blast Off 20 fl oz" name="size"> Blast Off 20 fl oz </option>
+				</select>
+			</fieldset>
+<br>
+			<fieldset id="fieldset">
+				<legend>Ice Level</legend>
+				<select size="1">
+					<option> Select your Ice Level</option>
+						<option value="No Ice" name="ice level"> No Ice </option><br>
+						<option value="25% Ice" name="ice level"> 25% Ice </option><br>
+						<option value="50% Ice" name="ice level"> 50% Ice </option><br>
+						<option value="75% Ice" name="ice level"> 75% Ice </option>
+				</select>
+			</fieldset>
+<br>
+			<fieldset id="fieldset">
+				<legend>Sugar Level</legend>
+				<select size="1">
+					<option> Select your Sugar Level</option>
+						<option value="No Sugar" name="Sugar level"> No Sugar </option><br>
+						<option value="25% Sugar" name="Sugar level"> 25% Sugar </option><br>
+						<option value="50% Sugar" name="Sugar level"> 50% Sugar </option><br>
+						<option value="75% Sugar" name="Sugar level"> 75% Sugar </option>
+				</select>
+			</fieldset>
+<br>
+			<fieldset id="fieldset">
+				<legend>Milk</legend>
+				<select size="1">
+					<option> Select your Milk</option>
+						<option value="Nonfat Milk" name="milk"> Nonfat Milk </option><br>
+						<option value="2% Milk" name="milk"> 2% Milk </option><br>
+						<option value="Whole Milk" name="milk"> Whole Milk </option><br>
+						<option value="Coconut Milk" name="milk"> Coconut Milk </option>
+						<option value="Almond Milk" name="milk"> Almond Milk </option>
+						<option value="Oat Milk" name="milk"> Oat Milk </option>
+				</select>
+			</fieldset>
+		
+<br><br>
+		<fieldset id="fieldset">
+			<ul style="list-style-type: none;">
+				<legend>Toppings</legend>
+				<li><input type="checkbox" value="tapioca boba" name="toppings">Tapioca Boba<br></li>
+		
+				<li><input type="checkbox" value="mango blast boba" name="toppings">Mango Blast Boba<br></li>
+			
+				<li><input type="checkbox" value="strawberry blast boba" name="toppings">Strawberry Blast Boba<br></li>
+				
+				<li><input type="checkbox" value="chia seeds" name="toppings">Chia Seeds<br></li>
+				
+				<li><input type="checkbox" value="no toppings" name="toppings">No toppings<br></li>
+				
+				</ul>
+			</fieldset>
+	</section>
+</section>
+<br>
+</div>
+<hr>
+<section class="Personal Info">
+	<p>Personal Information</p>
+	<br>
+		<center>
+	Email: <input type="email" name="order email"  placeholder="Enter your Email">&nbsp;&nbsp;&nbsp;
+	Phone Number: <input type="tel" name="order phone number"  placeholder="Enter your Number"><br><br>
+	Name: <input type="text" name="order full name"  placeholder="Enter your Full Name"><br><br>
+	<input type="submit" value="Submit" id="submit">
+		</center>
+	</form>
+</section>
+
+</div>
+
+<br>
+</main>
+
+<footer>
+	
+	<br>
+
+	<div style="justify-content: center; align-items: center; display: flex; margin-top: 20px; margin-bottom: 10px;">
+		<a href="https://tiktok.com" target="_blank">
+			<img src="images/tiktok.jpeg" alt="Tiktok" height="40" style="border-radius: 30px;" class="hover" ></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://instagram.com" target="_blank">
+			<img src="images/instagram.jpeg" alt="Instagram" height="40" style="border-radius: 30px;" class="hover"></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://youtube.com" target="_blank">
+			<img src="images/youtube.jpeg" alt="Youtube" height="40" style="border-radius: 30px;" class="hover"></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://twitter.com" target="_blank">
+			<img src="images/twitter.jpeg" alt="Twitter" height="40" style="border-radius: 30px;" class="hover"></a>
+		</div>
+		<center><a href="mailto:bobablastcompany@gmail.com"><img src="images/email.png" alt="Email" height="30" style="border-radius: 30px; top: 10px; position: relative;"></a>
+		<a href="mailto:bobablastcompany@gmail.com" style="color: #ff67c2; text-align: center;">bobablastcompany@gmail.com</a></center><br>
+		<span style="justify-content: center; align-items: center; display: flex; margin-bottom: 5px;">&copy; 2023 Boba Blast Company. All rights reserved.</span>
+	<br>
+</footer>
+
+</body>
+</html>	

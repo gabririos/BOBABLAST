@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title> BOBA BLAST </title>
+	<meta charset="utf-8">
+	<meta name="description" content="Boba Blast Food Truck">
+	<meta name="keywords" content="boba, boba blast, bubble tea, milk tea, food truck, boba food truck, milk tea truck">
+	<meta name="author" content="Gabriela Rios">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="300">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	
+	<style>
+	
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	.button {
+		border: 2px solid #392110;
+		border-radius: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		position: relative;
+		top: 20px;
+		text-decoration: none;
+		color: black;
+		background-color: white;
+		font-size: 14pt;
+		transition: all ease 0.8s;
+	}
+
+	.button:hover {
+		color: white;
+		background-color: #392110;
+		transition: all ease 0.4s;
+	}
+
+	.grid1 {
+    	display: grid;
+		width: 100%;
+		align-items: center;
+		background-color: #ff67c2;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  	}
+
+	.grid2 {
+    	display: grid;
+		width: 100%;
+		align-items: center;
+		background-color: #d7edfa;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  	}
+
+	  .grid3 {
+    	display: grid;
+		width: 100%;
+		align-items: center;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+		background-color: #fce356;
+  	}
+
+	.about {
+		background-color:#d7edfa;
+		text-align: center;
+		font-size: 16pt;
+	}
+
+	.ABOUTUS {
+		position: relative;
+		font-size: 22pt; 
+		font-weight: 500;
+	}
+
+	.ABOUTUS::before {
+    	content: "";
+    	position: absolute;
+    	display: block;
+    	width: 100%;
+    	height: 2px;
+    	bottom: 0;
+    	left: 0;
+    	background-color: black;
+    	transform: scaleX(1);
+	}
+
+	.ingredients {
+		display: grid;
+		align-items: center;
+		font-size: 16pt;
+		gap: 50px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding-bottom: 20px;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	}
+
+	.join {
+		font-size: 22pt; 
+		font-weight: 500;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+	.email {
+		height: 40px;
+		font-size: 12pt;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	#submit {
+		border: 8px solid #392110;
+		border-radius: 2px;
+		padding-left: 2px;
+		padding-right: 2px;
+		color: white;
+		background-color: #392110;
+		transition: all ease 0.8s;
+	}
+
+	
+	</style>
+
+</head>
+
+<body>
+<!-- COLOR SCHEME:
+blue: #c0e2f7;
+light blue: #d7edfa;
+dark blue: #418AE1;
+beige: #c3a17e;
+light brown: ;
+dark brown: #392110;
+pink: #ff67c2;
+green: #87ed6b;
+yellow: #fce356;
+-->
+<div class="top">
+<header>
+	<a href="index.html"><img src="images/bobablastlogo.png" alt="boba blast logo" height="120px" style="z-index: 5; position: relative;"></a>
+</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html"> HOME </a></li> 
+			<li><a href="menu.html" target="_blank"> MENU </a></li>
+			<li><a href="order.html" target="_blank"> ORDER </a></li> 
+			<li><a href="catering.html" target="_blank"> CATERING </a></li> 
+			<li><a href="contact.html" target="_blank"> CONTACT US </a></li>
+   		 </ul>
+	</nav>
+</div>
+
+<main>
+
+	<section class="grid1">
+		<div>
+			<p style="font-size: 22pt; text-align: center;"> 
+			<span style="font-weight: 500;">SIGNATURE BOBA DRINKS</span>
+			<br>
+			<span>Serving bubbly drinks to <br>boba lovers since 2017! </span>
+			<br>
+			<a href="order.html" target="_blank" class="button"> order now</a></p>
+			<br><br>
+		</div>
+		<img src="images/grid2.png" alt="boba drinks background" height="100%" width="100%">
+	</section>	
+
+	<div style="width: 100%; height: 10px;"></div>
+
+	<section class="grid2">
+		<img src="images/stack.png" alt="boba drinks background" height="100%" width="100%">
+
+		<div>
+			<p style="font-size: 22pt; text-align: center;"> 
+			<span style="font-weight: 500;">FIND YOUR PASSION BLAST</span>
+			<br>
+			<span>Try out our Seasonal Specials!</span>
+			<br>
+			<a href="menu.html" target="_blank" class="button">menu</a></p>
+			<br><br>
+		</div>
+	</section>	
+
+	<div style="width: 100%; height: 10px;"></div>
+
+	<section class="grid3">
+		<div>
+			<p style="font-size: 22pt; text-align: center;"> 
+			<span style="font-weight: 500;">BOBA TRUCK</span>
+			<br>
+			<span>Request our boba truck for any <br>of your special events!</span>
+			<br>
+			<a href="catering.html" target="_blank" class="button"> request</a></p>
+			<br><br>
+		</div>
+		<img src="images/bobatruck.png" style="background-color: white;" alt="boba truck" height="100%" width="100%">
+	</section>	
+
+	<div style="width: 100%; height: 10px;"></div>
+
+	<section class="about">
+		<br>
+		<span class="ABOUTUS">ABOUT US</span>
+		<p style="margin: 14px; padding-left: 10%; padding-right: 10%;">Boba Blast is a Falcon Cove Middle Web Design class project founded by Gabriela Rios with a life-long passion for boba tea and coffee.
+		<br><br>
+		At Boba Blast, we strive to provide you the highest-quality tea and coffee experience. We use only the finest ingredients such as organic loose leaf teas, Colombian coffee beans, organic golden cane sugar, seasonal fresh fruits, and organic milk.
+		<br><br>
+		We don't add any artificial flavors, powders, or high-fructose corn syrups. With every sip, you can taste the freshness and quality of the ingredients.
+		<br><br>
+		</p>
+	
+
+		<section class="ingredients">
+			<div class="leaves">
+				<img src="images/tealeaves.png" alt="tea leaves in pots" height="100%">
+				<p style="font-weight: 500;">Premium Tea Leaves & Coffee</p>
+				<p style="font-size: 14pt;">All of our teas are steeped in house, from premium loose leaf teas that we've sourced from around the world. We also proudly serve Colombian coffee.</p>
+			</div>
+
+			<div class="milk">
+				<br>
+				<img src="images/milk.webp" alt="different types of milk" height="200px" width="340px">
+				<p style="font-weight: 500;">Organic & Healthy Choices</p>
+				<p style="font-size: 14pt;">We use organic whole milk as it provides the creamiest and richest flavor. For those who don't do dairy, we also offer the highest quality non dairy milks as alternatives. 
+
+				</p>
+			</div>
+			
+			<div class="fruits">
+				<br>
+				<img src="images/fruitboba.png" alt="fruit boba" height="230px" width="230px">
+				<p style="font-weight: 500;">Cane Sugar & Fresh Fruits</p>
+				<p style="font-size: 14pt;">Our drinks are made with organic cane sugar, real fresh fruits, and freshly-squeezed juices. We don't use any artificial flavors, powders, or high-fructose corn syrups.</p>
+				<br>
+			</div>
+		</section>
+	</section>
+
+	<section class="join">
+		<p> Join our Team!</p>
+
+		<form action="https://formsubmit.co/gabririos513@gmail.com" method="POST">
+			<input type="email" name="join-our-team-user-email" class="email" placeholder="Enter your Email">
+			<button type="submit" name="join-our-team" class="email" id="submit">Submit</button>
+		</form>
+
+
+	</section>
+
+</main>
+
+<footer>
+	
+	<br>
+
+	<div style="justify-content: center; align-items: center; display: flex; margin-top: 20px; margin-bottom: 10px;">
+		<a href="https://tiktok.com" target="_blank">
+			<img src="images/tiktok.jpeg" alt="Tiktok" height="40" style="border-radius: 30px;" class="hover" ></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://instagram.com" target="_blank">
+			<img src="images/instagram.jpeg" alt="Instagram" height="40" style="border-radius: 30px;" class="hover"></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://youtube.com" target="_blank">
+			<img src="images/youtube.jpeg" alt="Youtube" height="40" style="border-radius: 30px;" class="hover"></a>
+			&nbsp;&nbsp;&nbsp;
+			<a href="https://twitter.com" target="_blank">
+			<img src="images/twitter.jpeg" alt="Twitter" height="40" style="border-radius: 30px;" class="hover"></a>
+		</div>
+		<center><a href="mailto:bobablastcompany@gmail.com"><img src="images/email.png" alt="Email" height="30" style="border-radius: 30px; top: 10px; position: relative;"></a>
+		<a href="mailto:bobablastcompany@gmail.com" style="color: #ff67c2; text-align: center;">bobablastcompany@gmail.com</a></center><br>
+		<span style="justify-content: center; align-items: center; display: flex; margin-bottom: 5px;">&copy; 2023 Boba Blast Company. All rights reserved.</span>
+	<br>
+</footer>
+
+</body>
+</html>	

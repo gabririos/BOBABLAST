@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title> BOBA BLAST </title>
+	<meta charset="utf-8">
+	<meta name="description" content="Boba Blast Food Truck">
+	<meta name="keywords" content="boba, boba blast, bubble tea, milk tea, food truck, boba food truck, milk tea truck">
+	<meta name="author" content="Gabriela Rios">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="300">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	
+	<style>
+	
+	*{
+		margin: 0;
+		padding: 0;
+        text-align: center;
+	}
+
+    .underline {
+		position: relative;
+		font-size: 24pt; 
+		font-weight: 600;
+        text-decoration: underline;
+        text-transform: uppercase;
+	}
+
+    #category {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #category img {
+        width: 250px;
+        height: 250px;
+    }
+
+    #item {
+        font-size: 12pt;
+    }
+
+    p {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .title {
+        font-size: 14pt;
+        font-weight: 500;
+    }
+
+    .seasonal::after {
+        content: " $6.00";
+        font-weight: 500;
+    }
+
+    .cloud::after {
+        content: " $6.50";
+        font-weight: 500;
+    }
+
+    .byd::after {
+        content: " $5.50";
+        font-weight: 500;
+    }
+
+    .MH::after {
+        content: " $6.50";
+        font-weight: 500;
+    }
+
+    .specialty::after {
+        content: " $6.50";
+        font-weight: 500;
+    }
+
+    .fruit-frescas::after {
+        content: " $6.00";
+        font-weight: 500;
+    }
+
+    .coffee::after {
+        content: " $5.50";
+        font-weight: 500;
+    }
+
+    hr {
+        background-color: #00000050
+    }
+
+	
+	</style>
+
+</head>
+
+<body>
+<!-- COLOR SCHEME:
+blue: #c0e2f7;
+light blue: #d7edfa;
+dark blue: #418AE1;
+beige: #c3a17e;
+light brown: ;
+dark brown: #392110;
+pink: #ff67c2;
+-->
+<div class="top">
+<header>
+	<a href="index.html"><img src="images/bobablastlogo.png" alt="boba blast logo" height="120px" style="z-index: 5; position: relative;"></a>
+</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html" target="_blank"> HOME </a></li> 
+			<li><a href="menu.html"> MENU </a></li>
+			<li><a href="order.html" target="_blank"> ORDER </a></li> 
+			<li><a href="catering.html" target="_blank"> CATERING </a></li> 
+			<li><a href="contact.html" target="_blank"> CONTACT US </a></li>
+   		 </ul>
+	</nav>
+</div>
+
+<main>
+    <img src="images/seasonalspecials0.png" alt="menu banner" width="100%">
+
+    <br><br>
+    <p class="underline">Seasonal Specials</p>
+        <section class="SeasonalSpecials" id="category">
+            <div class="mango-matcha-latte" id="item">
+                <p class="title">Mango Matcha Latte</p>
+                <img src="images/1.png" alt="menu items">
+                <p class="seasonal">Our organic premium-grade matcha from Tea People layered over your choice of milk and housemade mango purée.</p>
+            </div>
+
+            <div class="mango-jasmine-fresca" id="item">
+                <p class="title">Mango Jasmine Fresca</p>
+                <img src="images/2.png" alt="menu items">
+                <p class="seasonal">Bright, vibrant and refreshing. Our housemade mango purée paired with our floral jasmine tea.</p>
+            </div>
+
+            <div class="matcha-yuzu-palmer" id="item">
+                <p class="title">Matcha Yuzu Palmer</p>
+                <img src="images/3.png" alt="menu items">
+                <p class="seasonal">Floral housemade yuzu lemonade meets our Tea People organic matcha. A Boba Blast twist on a classic Arnold Palmer.
+                </p>
+            </div>
+
+            <div class="passionfruit-fresca" id="item">
+                <p class="title">Passionfruit Fresca</p>
+                <img src="images/4.png" alt="menu items">
+                <p class="seasonal">Sweet, tart and refreshing. Our all-natural passion-fruit purée paired with our floral jasmine tea. NY exclusive.
+                </p>
+
+            </div>
+
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+    <p class="underline"> Cloud Series </p>
+        <section class="CloudSeries" id="category">
+            <div class="pastel-paradise-cloud" id="item">
+                <p class="title">Pastel Paradise Cloud</p>
+                <img src="images/5.png" alt="menu items">
+                <p class="cloud">Our lychee and strawberry fresca topped with our light, creamy cloud conjures up thoughts of sunsets and summertime.</p>
+            </div>
+
+            <div class="sawadee-cloud" id="item">
+                <p class="title">Sawadee Cloud</p>
+                <img src="images/6.png" alt="menu items">
+                <p class="cloud">A new take on coffee! Thai tea and cold brew coffee topped with our light, creamy cloud.</p>
+            </div>
+
+
+            <div class="midori-cloud" id="item">
+                <p class="title">Midori Cloud</p>
+                <img src="images/7.png" alt="menu items">
+                <p class="cloud">Tea People organic matcha is cold brewed and topped with our light, creamy cloud.
+                </p>
+
+            </div>
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+        <p class="underline"> Build Your Drink </p>
+        <section class="BuildYourDrink" id="category">
+            <div class="classic-black" id="item">
+                <p class="title">Classic Black</p>
+                <img src="images/8.png" alt="menu items">
+                <p class="byd">A special blend of black teas from China and South Asia with your choice of milk and sweetness.
+                </p>
+
+            </div>
+
+
+            <div class="jasmine-green" id="item">
+                <p class="title">Jasmine Green</p>
+                <img src="images/9.png" alt="menu items">
+                <p class="byd">Our Jasmine Green from Tea People. Floral and silky. Contains caffeine.</p>
+
+            </div>
+
+            <div class="decaf-black" id="item">
+                <p class="title">Decaf Black</p>
+                <img src="images/10.png" alt="menu items">
+                <p class="byd">Our Decaf Black from Tea People. A full-bodied black tea without the kick.
+                    Caffeine-free.</p>
+
+            </div>
+
+            <div class="rose-black" id="item">
+                <p class="title">Rose Black</p>
+                <img src="images/9.png" alt="menu items">
+                <p class="byd">A Ceylon black tea with a sweet fullness of delicate young rosebuds and petals.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="hibiscus-mint-iced-tea" id="item">
+                <p class="title">Hibiscus Mint Tea</p>
+                <img src="images/11.png" alt="menu items">
+                <p class="byd">Our version of an Agua de Jamaica: a tart blend of real hibiscus flowers, rose hips and mint, that produce a slightly sweet and beautifully bright red steep.
+                    Served iced & caffeine-free.</p>
+
+            </div>
+
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+        <p class="underline"> Matcha & Hojicha </p>
+        <section class="Matcha&Hojicha" id="category">
+            <div class="strawberry-matcha-latte" id="item">
+                <p class="title">Strawberry Matcha Latte</p>
+                <img src="images/12.png" alt="menu items">
+                <p class="MH">Our signature and most popular drink. Organic premium-grade matcha from Tea People layered over your choice of milk and our housemade strawberry puree.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="matcha-latte" id="item">
+                <p class="title">Matcha Latte</p>
+                <img src="images/13.png" alt="menu items">
+                <p class="MH">Our organic premium-grade matcha from Tea People layered over your choice of milk and sweetener.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="black-sugar-hojicha" id="item">
+                <p class="title">Black Sugar Hojicha</p>
+                <img src="images/14.png" alt="menu items">
+                <p class="MH">Our organic hojicha powder from Tea People is a roasted green tea that’s low in caffeine but high in toastiness. Our housemade kuromitsu syrup compliments the nutty flavor of hojicha.
+                    Contains caffeine.</p>
+
+            </div>
+
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+        <p class="underline"> Specialty </p>
+        <section class="Specialty" id="category">
+            <div class="korean-banana-milk" id="item">
+                <p class="title">Korean Banana Milk</p>
+                <img src="images/15.png" alt="menu items">
+                <p class="specialty">Creamy and uniquely sweet - it’s our elevated take on Korea's boxed Banana Milk. All-natural, housemade banana jam paired with oat milk.
+                    Dairy and caffeine-free.</p>
+
+            </div>
+
+            <div class="horchata" id="item">
+                <p class="title">Horchata</p>
+                <img src="images/16.png" alt="menu items">
+                <p class="specialty">One of our mainstays and a nod to the Mission (where it all started). Housemade with rice milk, cinnamon, sugar and a splash of almond milk for taste.
+                    Dairy and caffeine-free.</p>
+                
+            </div>
+
+            <div class="thai-tea" id="item">
+                <p class="title">Thai Tea</p>
+                <img src="images/17.png" alt="menu items">
+                <p class="specialty">Brewed from a strong Ceylon green tea and spices combined with dairy milk and organic condensed milk.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="strawberry-fields" id="item">
+                <p class="title">Strawberry Fields</p>
+                <img src="images/18.png" alt="menu items">
+                <p class="specialty">Your choice of milk layered over our housemade strawberry puree. A tasty treat for kids and the kid in you.
+                    Caffeine-free.</p>
+
+            </div>
+
+            <div class="ube-latte" id="item">
+                <p class="title">Ube Latte</p>
+                <img src="images/19.png" alt="menu items">
+                <p class="specialty">Light and airy - our housemade ube puree layered with silky coconut milk and hints of vanilla. Caffeine-free.</p>
+
+            </div>
+
+            <div class="hong-kong-milk-tea" id="item">
+                <p class="title">Hong Kong Milk Tea</p>
+                <img src="images/20.png" alt="menu items">
+                <p class="specialty">A robust but sweet premium loose leaf black tea blended with organic condensed milk. 
+                    Contains caffeine.</p>
+
+            </div>
+
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+        <p class="underline"> Fruit Frescas </p>
+        <section class="FruitFrescas" id="category">
+            <div class="strawberry-jasmine" id="item">
+                <p class="title">Strawberry Jasmine</p>
+                <img src="images/21.png" alt="menu items">
+                <p class="fruit-frescas">A refreshing blend of strawberries and jasmine green tea.</p>
+
+            </div>
+
+            <div class="berry-hibiscus" id="item">
+                <p class="title">Berry Hibiscus</p>
+                <img src="images/22.png" alt="menu items">
+                <p class="fruit-frescas">A tart and fruity drink fused with strawberry, mint and hibiscus tea. Caffeine-free.</p>
+
+            </div>
+
+            <div class="lychee-oolong" id="item">
+                <p class="title">Lychee Oolong</p>
+                <img src="images/23.png" alt="menu items">
+                <p class="fruit-frescas">Sweet and aromatic taste of lychee combined with vanilla notes from Tie Guan Yin from Tea People.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="mango-jasmine-fresca" id="item">
+                <p class="title">Mango Jasmine Fresca</p>
+                <img src="images/24.png" alt="menu items">
+                <p class="fruit-frescas">Bright, vibrant and refreshing. Our housemade mango purée paired with our floral jasmine tea.</p>
+
+            </div>
+
+            <div class="passionfruit-fresca" id="item">
+                <p class="title">Passionfruit Fresca</p>
+                <img src="images/25.png" alt="menu items">
+                <p class="fruit-frescas">Sweet, tart and refreshing. Our all-natural passion-fruit purée paired with our floral jasmine tea. NY exclusive.
+                </p>
+
+            </div>
+
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+        <p class="underline"> Coffee </p>
+        <section class="Coffee" id="category">
+            <div class="dirty-horchata" id="item">
+                <p class="title">Dirty Horchata</p>
+                <img src="images/26.png" alt="menu items">
+                <p class="coffee">A shot of Proyecto Diaz espresso layered over our horchata. Contains caffeine.</p>
+
+            </div>
+
+            <div class="dirty-banana-milk" id="item">
+                <p class="title">Dirty Banana Milk</p>
+                <img src="images/27.png" alt="menu items">
+                <p class="coffee">Creamy and uniquely sweet - it’s our elevated take on Korean Boxed Banana Milk but layered with a shot of espresso from Proyecto Diaz.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="shaken-cold-brew" id="item">
+                <p class="title">Shaken Cold Brew</p>
+                <img src="images/28.png" alt="menu items">
+                <p class="coffee">Bold and shaken cold brew made from Proyecto Diaz.
+                    Contains caffeine.</p>
+
+            </div>
+
+            <div class="espresso-milk-tea" id="item">
+                <p class="title">Espresso Milk Tea</p>
+                <img src="images/29.png" alt="menu items">
+                <p class="coffee">Our Classic Black milk tea served up with a shot of espresso over the top.
+                </p>
+
+            </div>
+
+            <div class="coffee-milk-tea" id="item">
+                <p class="title">Coffee Milk Tea</p>
+                <img src="images/30.png" alt="menu items">
+                <p class="coffee">Made similar to our classic milk tea but with a healthy shot of our own house blend of coffee. Made with your choice of milk and sweetness.</p>
+
+            </div>
+
+            <div class="cafe-latte" id="item">
+                <p class="title">Cafe Latte</p>
+                <img src="images/31.png" alt="menu items">
+                <p class="coffee">Coffee made from Proyecto Diaz and your choice of milk.</p>
+
+            </div>
+
+        </section>
+
+        <br>
+        <hr>
+        <br><br>
+
+        <p class="underline"> Tea People </p>
+        <section class="TeaPeople" id="category">
+            <div class="muscat-oolong" id="item">
+                <p class="title">Muscat Oolong</p>
+                <img src="images/32.png" alt="menu items">
+                <p class="tea-people">A strong and smooth oolong tea balanced perfectly with the fruit flavor of the muscat grapes (traditionally wine grapes). 2oz of loose leaf oolong tea. <span style="font-weight: 500;">$18.00</span></p>
+
+            </div>
+
+            <div class="lychee-green-tea" id="item">
+                <p class="title">Lychee Green Tea</p>
+                <img src="images/33.png" alt="menu items">
+                <p class="tea-people">A blend of lychee fruit and fragrant green tea. Really great as an iced tea but still goes (really) well with milk. 2oz of loose leaf green tea. <span style="font-weight: 500;">$18.00</span></p>
+
+            </div>
+
+            <div class="earl-grey" id="item">
+                <p class="title">Earl Grey</p>
+                <img src="images/34.png" alt="menu items">
+                <p class="tea-people">Our own spin on a timeless classic: A Keemun Black tea base flavored with 100% all natural Bergamot oil. 2oz of loose leaf black tea. <span style="font-weight: 500;">$18.00</span></p>
+
+            </div>
+
+            <div class="organic-matcha-tin" id="item">
+                <p class="title">Organic Matcha Tin</p>
+                <img src="images/35.png" alt="menu items">
+                <p class="tea-people">Our premium-grade organic matcha is grown and produced in Nishio city in Aichi prefecture of Japan. Nishio has been known around the world as the cradle of the finest matcha for more than 800 years
+                    Each tin contains 30 grams of matcha - approximately 15-20 servings. Tin sealed for freshness. <span style="font-weight: 500;">$25.00</span></p>
+
+            </div>
+
+            <div class="organic-hojicha-tin" id="item">
+                <p class="title">Organic Hojicha Tin</p>
+                <img src="images/36.png" alt="menu items">
+                <p class="tea-people">Hojicha is a roasted green tea. Low in caffeine, but high in toastiness! Great hot or cold + goes well with milk.
+                    Each tin contains 30 grams of hojicha - approximately 15-20 servings. Tin sealed for freshness. <span style="font-weight: 500;">$20.00</span></p>
+
+            </div>
+
+            <div class="boba-blast-blend-no.1" id="item">
+                <p class="title">Boba Blast Blend No.1</p>
+                <img src="images/37.png" alt="menu items">
+                <p class="tea-people">The same malty & silky signature black tea blend made for Boba Blast' 'Classic Milk Tea.' Great hot or cold + goes well with milk. 2oz of loose leaf black tea. <span style="font-weight: 500;">$12.00</span>
+                </p>
+
+            </div>
+
+            <div class="jasmine-green" id="item">
+                <p class="title">Jasmine Green</p>
+                <img src="images/38.png" alt="menu items">
+                <p class="tea-people">Green tea married with strong floral notes from jasmine blossoms that play like LeBron and sing like Mariah. Not to mention, it's loaded with natural antioxidants (the good stuff). Works equally well hot or cold + goes great with milk. 2oz of loose leaf green tea. <span style="font-weight: 500;">$12.00</span></p>
+
+            </div>
+
+            <div class="bamboo-matcha-whisk" id="item">
+                <p class="title">Bamboo Matcha Whisk</p>
+                <img src="images/39.png" alt="menu items">
+                <p class="tea-people">The bamboo whisk, known as Chasen used in the Japanese tea ceremony is perfectly designed and hand-crafted from white bamboo to make your traditional style Matcha. The bamboo strands are exquisitely designed to produce the creamiest froth which is essential to the traditional style drinking of Matcha. The creaminess of the froth is the mark of well-prepared Matcha. <span style="font-weight: 500;">$8.00</span></p>
+
+            </div>
+        </section>
+
+
+</main>
+
+<footer>
+	
+	<br>
+
+	<div style="justify-content: center; align-items: center; display: flex; margin-top: 20px; margin-bottom: 10px;">
+        <a href="https://tiktok.com" target="_blank">
+            <img src="images/tiktok.jpeg" alt="Tiktok" height="40" style="border-radius: 30px;" class="hover" ></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.jpeg" alt="Instagram" height="40" style="border-radius: 30px;" class="hover"></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://youtube.com" target="_blank">
+            <img src="images/youtube.jpeg" alt="Youtube" height="40" style="border-radius: 30px;" class="hover"></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.jpeg" alt="Twitter" height="40" style="border-radius: 30px;" class="hover"></a>
+        </div>
+        <center><a href="mailto:bobablastcompany@gmail.com"><img src="images/email.png" alt="Email" height="30" style="border-radius: 30px; top: 10px; position: relative;"></a>
+        <a href="mailto:bobablastcompany@gmail.com" style="color: #ff67c2; text-align: center;">bobablastcompany@gmail.com</a></center><br>
+        <span style="justify-content: center; align-items: center; display: flex; margin-bottom: 5px;">&copy; 2023 Boba Blast Company. All rights reserved.</span>
+    <br>
+</footer>
+
+</body>
+</html>	

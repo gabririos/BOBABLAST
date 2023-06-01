@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title> BOBA BLAST </title>
+	<meta charset="utf-8">
+	<meta name="description" content="Boba Blast Food Truck">
+	<meta name="keywords" content="boba, boba blast, bubble tea, milk tea, food truck, boba food truck, milk tea truck">
+	<meta name="author" content="Gabriela Rios">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="300">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	
+	<style>
+	
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	p {
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;		
+	}
+
+	.underline {
+		position: relative;
+		font-size: 24pt; 
+		font-weight: 600;
+        text-decoration: underline;
+        text-transform: uppercase;
+	}
+
+	legend {
+		font-size: 20pt;
+	}
+
+	#submit {
+		border: 8px solid #392110;
+		border-radius: 2px;
+		padding-left: 2px;
+		padding-right: 2px;
+		color: white;
+		background-color: #392110;
+		transition: all ease 0.8s;
+	}
+
+	form {
+		text-align: center;
+		box-sizing: border-box;
+	}
+	
+	</style>
+
+</head>
+
+<body>
+<!-- COLOR SCHEME:
+blue: #c0e2f7;
+light blue: #d7edfa;
+dark blue: #418AE1;
+beige: #c3a17e;
+light brown: ;
+dark brown: #392110;
+pink: #ff67c2;
+-->
+<div class="top">
+<header>
+	<a href="index.html"><img src="images/bobablastlogo.png" alt="boba blast logo" height="120px" style="z-index: 5; position: relative;"></a>
+</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html" target="_blank"> HOME </a></li> 
+			<li><a href="menu.html" target="_blank"> MENU </a></li>
+			<li><a href="order.html" target="_blank"> ORDER </a></li> 
+			<li><a href="catering.html"> CATERING </a></li> 
+			<li><a href="contact.html" target="_blank"> CONTACT US </a></li>
+   		 </ul>
+	</nav>
+</div>
+
+<main>
+	<img src="images/cateringcalendar.png" width="100%" alt="catering calendar for june">
+	<p style="font-size: 22pt;">Our Catering & Events services are currently available for the San Francisco Bay Area, Los Angeles and New York regions. To inquire about our services, please fill out the form below and our catering team will respond to your request.
+
+	We appreciate you thinking of us for your special event!</p><br>
+<hr>
+
+	<form action="https://formsubmit.co/gabririos513@gmail.com" method="POST" style="background-color:#ff67c280;">
+		<p class="underline"> Request Our Boba Truck! </p>
+<br>
+		<legend style=""> Personal Information</legend>
+		Name: <input type="text" required="required" placeholder="Name"> <br><br>
+		Email: <input type="email" required="required" placeholder="Email"> <br><br>
+		Phone Number: <input type="tel" required="required" placeholder="Phone Number"> <br><br>
+		Event/Occasion: <input type="text" required="required" placeholder="Event/Occasion"> <br><br>
+
+		<legend style=""> Address of Location</legend>
+			<label> Street: <input type="text" name="street" id="street" size="54"></label> <br><br>
+			<label> City: <input type="text" name="city" id="city"></label> <br><br>
+			<label> State: <input type="text" name="state" id="state" maxlength="2" size="5"></label> <br><br>
+			<label> Zip: <input type="text" name="zip" id="zip" maxlength="5" size="5"></label> <br><br>
+
+			<label for="myDate">Choose a Date:</label><br>
+			<input type="date" name="myDate" id="myDate"> <br><br>
+			<input type="submit" id="submit">
+<br><br>
+		</form>
+
+</main>
+
+<footer>
+	
+	<br>
+
+	<div style="justify-content: center; align-items: center; display: flex; margin-top: 20px; margin-bottom: 10px;">
+	<a href="https://tiktok.com" target="_blank">
+		<img src="images/tiktok.jpeg" alt="Tiktok" height="40" style="border-radius: 30px;" class="hover" ></a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="https://instagram.com" target="_blank">
+		<img src="images/instagram.jpeg" alt="Instagram" height="40" style="border-radius: 30px;" class="hover"></a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="https://youtube.com" target="_blank">
+		<img src="images/youtube.jpeg" alt="Youtube" height="40" style="border-radius: 30px;" class="hover"></a>
+		&nbsp;&nbsp;&nbsp;
+		<a href="https://twitter.com" target="_blank">
+		<img src="images/twitter.jpeg" alt="Twitter" height="40" style="border-radius: 30px;" class="hover"></a>
+	</div>
+	<center><a href="mailto:bobablastcompany@gmail.com"><img src="images/email.png" alt="Email" height="30" style="border-radius: 30px; top: 10px; position: relative;"></a>
+	<a href="mailto:bobablastcompany@gmail.com" style="color: #ff67c2; text-align: center;">bobablastcompany@gmail.com</a></center><br>
+	<span style="justify-content: center; align-items: center; display: flex; margin-bottom: 5px;">&copy; 2023 Boba Blast Company. All rights reserved.</span>
+<br>
+</footer>
+
+</body>
+</html>	
